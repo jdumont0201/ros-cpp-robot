@@ -1,0 +1,3 @@
+<launch>
+<node pkg="nobo_led" name="led_on" type="led_on.py" output="screen"></node>
+</launch>
