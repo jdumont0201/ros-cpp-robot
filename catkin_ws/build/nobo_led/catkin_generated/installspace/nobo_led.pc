@@ -1,8 +1,0 @@
-prefix=/home/jbmdumont/catkin_ws/install
-
-Name: nobo_led
-Description: Description of nobo_led
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/jbmdumont/catkin_ws/install/lib 
-Requires: 
