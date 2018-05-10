@@ -1,0 +1,3 @@
+<launch>
+<node pkg="gyro0"  name="gyro0_pub_node" type="gyro0_node" output="screen"></node>
+</launch>

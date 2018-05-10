@@ -1,2 +1,2 @@
-led0:led1:ledx:n_led:servo0
+gyro0:led0:led1:ledx:n_led:ros_arduino_bridge/ros_arduino_bridge:ros_arduino_bridge/ros_arduino_firmware:ros_arduino_bridge/ros_arduino_msgs:ros_arduino_bridge/ros_arduino_python:serial_led:servo0
 -DCATKIN_DEVEL_PREFIX=/home/jbmdumont/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jbmdumont/catkin_ws/install -G Unix Makefiles

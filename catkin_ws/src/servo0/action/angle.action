@@ -1,4 +1,4 @@
-float32 angle
+float32 target_angle
 ---
 string res
 ---

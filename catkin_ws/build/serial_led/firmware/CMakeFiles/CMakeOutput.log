@@ -1,0 +1,332 @@
+The target system is: Arduino -  - 
+The host system is: Linux - 4.4.0-1089-raspi2 - armv7l
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/avr-gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/avr-g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5bb86/fast"
+make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5bb86.dir/build.make CMakeFiles/cmTC_5bb86.dir/build
+make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5bb86.dir/testCCompiler.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -o CMakeFiles/cmTC_5bb86.dir/testCCompiler.c.obj   -c /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_5bb86
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bb86.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_5bb86.dir/testCCompiler.c.obj  -o cmTC_5bb86  
+make[4]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b9a4/fast"
+make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7b9a4.dir/build.make CMakeFiles/cmTC_7b9a4.dir/build
+make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b9a4.dir/CMakeCCompilerABI.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -o CMakeFiles/cmTC_7b9a4.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7b9a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b9a4.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_7b9a4.dir/CMakeCCompilerABI.c.obj  -o cmTC_7b9a4   
+Using built-in specs.
+Reading specs from /usr/lib/gcc/avr/4.9.2/device-specs/specs-avr2
+COLLECT_GCC=/usr/bin/avr-gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.9.2/lto-wrapper
+Target: avr
+Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=avr CFLAGS='-g -O2 -fstack-protector-strong -Wformat ' CPPFLAGS=-D_FORTIFY_SOURCE=2 CXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ' FCFLAGS='-g -O2 -fstack-protector-strong' FFLAGS='-g -O2 -fstack-protector-strong' GCJFLAGS='-g -O2 -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fstack-protector-strong -Wformat ' OBJCXXFLAGS='-g -O2 -fstack-protector-strong -Wformat '
+Thread model: single
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/../../../avr/bin/
+LIBRARY_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTC_7b9a4' '-specs=device-specs/specs-avr2'
+ /usr/lib/gcc/avr/4.9.2/collect2 -plugin /usr/lib/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/cclF0Xvo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_7b9a4 -L/usr/lib/gcc/avr/4.9.2 -L/usr/lib/gcc/avr/4.9.2/../../../avr/lib --gc-sections -lm CMakeFiles/cmTC_7b9a4.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group
+make[4]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7b9a4/fast"]
+  ignore line: [make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7b9a4.dir/build.make CMakeFiles/cmTC_7b9a4.dir/build]
+  ignore line: [make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_7b9a4.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -o CMakeFiles/cmTC_7b9a4.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_7b9a4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b9a4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_7b9a4.dir/CMakeCCompilerABI.c.obj  -o cmTC_7b9a4   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/avr/4.9.2/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.9.2/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=avr CFLAGS='-g -O2 -fstack-protector-strong -Wformat ' CPPFLAGS=-D_FORTIFY_SOURCE=2 CXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ' FCFLAGS='-g -O2 -fstack-protector-strong' FFLAGS='-g -O2 -fstack-protector-strong' GCJFLAGS='-g -O2 -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fstack-protector-strong -Wformat ' OBJCXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ']
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-v' '-o' 'cmTC_7b9a4' '-specs=device-specs/specs-avr2']
+  link line: [ /usr/lib/gcc/avr/4.9.2/collect2 -plugin /usr/lib/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/cclF0Xvo.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_7b9a4 -L/usr/lib/gcc/avr/4.9.2 -L/usr/lib/gcc/avr/4.9.2/../../../avr/lib --gc-sections -lm CMakeFiles/cmTC_7b9a4.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lm -lc --end-group]
+    arg [/usr/lib/gcc/avr/4.9.2/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/avr/4.9.2/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cclF0Xvo.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7b9a4] ==> ignore
+    arg [-L/usr/lib/gcc/avr/4.9.2] ==> dir [/usr/lib/gcc/avr/4.9.2]
+    arg [-L/usr/lib/gcc/avr/4.9.2/../../../avr/lib] ==> dir [/usr/lib/gcc/avr/4.9.2/../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [CMakeFiles/cmTC_7b9a4.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/avr/4.9.2] ==> [/usr/lib/gcc/avr/4.9.2]
+  collapse library dir [/usr/lib/gcc/avr/4.9.2/../../../avr/lib] ==> [/usr/lib/avr/lib]
+  implicit libs: [m;m;c]
+  implicit dirs: [/usr/lib/gcc/avr/4.9.2;/usr/lib/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4d955/fast"
+make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_4d955.dir/build.make CMakeFiles/cmTC_4d955.dir/build
+make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d955.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -std=c11 -o CMakeFiles/cmTC_4d955.dir/feature_tests.c.obj   -c /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4d955
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d955.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_4d955.dir/feature_tests.c.obj  -o cmTC_4d955  
+make[4]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_99d16/fast"
+make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_99d16.dir/build.make CMakeFiles/cmTC_99d16.dir/build
+make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99d16.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -std=c99 -o CMakeFiles/cmTC_99d16.dir/feature_tests.c.obj   -c /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/feature_tests.c
+Linking C executable cmTC_99d16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99d16.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_99d16.dir/feature_tests.c.obj  -o cmTC_99d16  
+make[4]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d0e74/fast"
+make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d0e74.dir/build.make CMakeFiles/cmTC_d0e74.dir/build
+make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0e74.dir/feature_tests.c.obj
+/usr/bin/avr-gcc    -g -Os       -mcall-prologues -ffunction-sections -fdata-sections    -std=c90 -o CMakeFiles/cmTC_d0e74.dir/feature_tests.c.obj   -c /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d0e74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0e74.dir/link.txt --verbose=1
+/usr/bin/avr-gcc  -g -Os       -mcall-prologues -ffunction-sections -fdata-sections   -Wl,--gc-sections -lm  CMakeFiles/cmTC_d0e74.dir/feature_tests.c.obj  -o cmTC_d0e74  
+make[4]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8699c/fast"
+make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8699c.dir/build.make CMakeFiles/cmTC_8699c.dir/build
+make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8699c.dir/testCXXCompiler.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -o CMakeFiles/cmTC_8699c.dir/testCXXCompiler.cxx.obj -c /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_8699c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8699c.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_8699c.dir/testCXXCompiler.cxx.obj  -o cmTC_8699c  
+make[4]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39ec7/fast"
+make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_39ec7.dir/build.make CMakeFiles/cmTC_39ec7.dir/build
+make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39ec7.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -o CMakeFiles/cmTC_39ec7.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_39ec7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39ec7.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_39ec7.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_39ec7   
+Using built-in specs.
+Reading specs from /usr/lib/gcc/avr/4.9.2/device-specs/specs-avr2
+COLLECT_GCC=/usr/bin/avr-g++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.9.2/lto-wrapper
+Target: avr
+Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=avr CFLAGS='-g -O2 -fstack-protector-strong -Wformat ' CPPFLAGS=-D_FORTIFY_SOURCE=2 CXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ' FCFLAGS='-g -O2 -fstack-protector-strong' FFLAGS='-g -O2 -fstack-protector-strong' GCJFLAGS='-g -O2 -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fstack-protector-strong -Wformat ' OBJCXXFLAGS='-g -O2 -fstack-protector-strong -Wformat '
+Thread model: single
+gcc version 4.9.2 (GCC) 
+COMPILER_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/../../../avr/bin/
+LIBRARY_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/../../../avr/lib/
+COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTC_39ec7' '-specs=device-specs/specs-avr2'
+ /usr/lib/gcc/avr/4.9.2/collect2 -plugin /usr/lib/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDMf6if.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_39ec7 -L/usr/lib/gcc/avr/4.9.2 -L/usr/lib/gcc/avr/4.9.2/../../../avr/lib --gc-sections CMakeFiles/cmTC_39ec7.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group
+make[4]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(avr-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_39ec7/fast"]
+  ignore line: [make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_39ec7.dir/build.make CMakeFiles/cmTC_39ec7.dir/build]
+  ignore line: [make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_39ec7.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -o CMakeFiles/cmTC_39ec7.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_39ec7]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39ec7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm -v CMakeFiles/cmTC_39ec7.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_39ec7   ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Reading specs from /usr/lib/gcc/avr/4.9.2/device-specs/specs-avr2]
+  ignore line: [COLLECT_GCC=/usr/bin/avr-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/avr/4.9.2/lto-wrapper]
+  ignore line: [Target: avr]
+  ignore line: [Configured with: ../src/configure -v --enable-languages=c,c++ --prefix=/usr/lib --infodir=/usr/share/info --mandir=/usr/share/man --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --enable-shared --with-system-zlib --enable-long-long --enable-nls --without-included-gettext --disable-libssp --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=avr CFLAGS='-g -O2 -fstack-protector-strong -Wformat ' CPPFLAGS=-D_FORTIFY_SOURCE=2 CXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ' FCFLAGS='-g -O2 -fstack-protector-strong' FFLAGS='-g -O2 -fstack-protector-strong' GCJFLAGS='-g -O2 -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -Wl,-z,relro' OBJCFLAGS='-g -O2 -fstack-protector-strong -Wformat ' OBJCXXFLAGS='-g -O2 -fstack-protector-strong -Wformat ']
+  ignore line: [Thread model: single]
+  ignore line: [gcc version 4.9.2 (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/:/usr/lib/gcc/avr/4.9.2/../../../avr/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/avr/4.9.2/:/usr/lib/gcc/avr/4.9.2/../../../avr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-Os' '-mcall-prologues' '-ffunction-sections' '-fdata-sections' '-fno-exceptions' '-v' '-o' 'cmTC_39ec7' '-specs=device-specs/specs-avr2']
+  link line: [ /usr/lib/gcc/avr/4.9.2/collect2 -plugin /usr/lib/gcc/avr/4.9.2/liblto_plugin.so -plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper -plugin-opt=-fresolution=/tmp/ccDMf6if.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lc -o cmTC_39ec7 -L/usr/lib/gcc/avr/4.9.2 -L/usr/lib/gcc/avr/4.9.2/../../../avr/lib --gc-sections CMakeFiles/cmTC_39ec7.dir/CMakeCXXCompilerABI.cpp.obj -lgcc -lm --start-group -lgcc -lm -lc --end-group]
+    arg [/usr/lib/gcc/avr/4.9.2/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/avr/4.9.2/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/avr/4.9.2/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccDMf6if.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_39ec7] ==> ignore
+    arg [-L/usr/lib/gcc/avr/4.9.2] ==> dir [/usr/lib/gcc/avr/4.9.2]
+    arg [-L/usr/lib/gcc/avr/4.9.2/../../../avr/lib] ==> dir [/usr/lib/gcc/avr/4.9.2/../../../avr/lib]
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_39ec7.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [--start-group] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lm] ==> lib [m]
+    arg [-lc] ==> lib [c]
+    arg [--end-group] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/avr/4.9.2] ==> [/usr/lib/gcc/avr/4.9.2]
+  collapse library dir [/usr/lib/gcc/avr/4.9.2/../../../avr/lib] ==> [/usr/lib/avr/lib]
+  implicit libs: [m;m;c]
+  implicit dirs: [/usr/lib/gcc/avr/4.9.2;/usr/lib/avr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2961f/fast"
+make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2961f.dir/build.make CMakeFiles/cmTC_2961f.dir/build
+make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2961f.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -std=c++14 -o CMakeFiles/cmTC_2961f.dir/feature_tests.cxx.obj -c /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2961f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2961f.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_2961f.dir/feature_tests.cxx.obj  -o cmTC_2961f  
+make[4]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ffc68/fast"
+make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ffc68.dir/build.make CMakeFiles/cmTC_ffc68.dir/build
+make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ffc68.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -std=c++11 -o CMakeFiles/cmTC_ffc68.dir/feature_tests.cxx.obj -c /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ffc68
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffc68.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_ffc68.dir/feature_tests.cxx.obj  -o cmTC_ffc68  
+make[4]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+
+
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5458e/fast"
+make[3]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5458e.dir/build.make CMakeFiles/cmTC_5458e.dir/build
+make[4]: Entering directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5458e.dir/feature_tests.cxx.obj
+/usr/bin/avr-g++     -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions    -std=c++98 -o CMakeFiles/cmTC_5458e.dir/feature_tests.cxx.obj -c /home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5458e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5458e.dir/link.txt --verbose=1
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions   -Wl,--gc-sections -lm  CMakeFiles/cmTC_5458e.dir/feature_tests.cxx.obj  -o cmTC_5458e  
+make[4]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/jbmdumont/catkin_ws/build/serial_led/firmware/CMakeFiles/CMakeTmp'
+
+

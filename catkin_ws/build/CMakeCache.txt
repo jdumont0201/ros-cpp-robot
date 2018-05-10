@@ -344,6 +344,12 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Value Computed by CMake
+gyro0_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/gyro0
+
+//Value Computed by CMake
+gyro0_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/gyro0
+
+//Value Computed by CMake
 led0_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/led0
 
 //Value Computed by CMake
@@ -361,8 +367,14 @@ ledx_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/ledx
 //Value Computed by CMake
 ledx_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/ledx
 
+//Value Computed by CMake
+ledx_serial_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/ledx_serial
+
+//Value Computed by CMake
+ledx_serial_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/ledx_serial
+
 //Path to a library.
-lib:FILEPATH=/opt/ros/lunar/lib/libactionlib.so
+lib:FILEPATH=/opt/ros/lunar/lib/librostime.so
 
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/lunar/share/message_generation/cmake
@@ -375,6 +387,30 @@ n_led_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/n_led
 
 //Value Computed by CMake
 n_led_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/n_led
+
+//Value Computed by CMake
+ros_arduino_bridge_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/ros_arduino_bridge/ros_arduino_bridge
+
+//Value Computed by CMake
+ros_arduino_bridge_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/ros_arduino_bridge/ros_arduino_bridge
+
+//Value Computed by CMake
+ros_arduino_firmware_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/ros_arduino_bridge/ros_arduino_firmware
+
+//Value Computed by CMake
+ros_arduino_firmware_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/ros_arduino_bridge/ros_arduino_firmware
+
+//Value Computed by CMake
+ros_arduino_msgs_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/ros_arduino_bridge/ros_arduino_msgs
+
+//Value Computed by CMake
+ros_arduino_msgs_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/ros_arduino_bridge/ros_arduino_msgs
+
+//Value Computed by CMake
+ros_arduino_python_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/ros_arduino_bridge/ros_arduino_python
+
+//Value Computed by CMake
+ros_arduino_python_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/ros_arduino_bridge/ros_arduino_python
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/lunar/share/rosconsole/cmake
@@ -391,8 +427,32 @@ roscpp_traits_DIR:PATH=/opt/ros/lunar/share/roscpp_traits/cmake
 //The directory containing a CMake configuration file for rosgraph_msgs.
 rosgraph_msgs_DIR:PATH=/opt/ros/lunar/share/rosgraph_msgs/cmake
 
+//The directory containing a CMake configuration file for rospy.
+rospy_DIR:PATH=/opt/ros/lunar/share/rospy/cmake
+
+//The directory containing a CMake configuration file for rosserial.
+rosserial_DIR:PATH=rosserial_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for rosserial_adruino.
+rosserial_adruino_DIR:PATH=rosserial_adruino_DIR-NOTFOUND
+
+//The directory containing a CMake configuration file for rosserial_arduino.
+rosserial_arduino_DIR:PATH=/opt/ros/lunar/share/rosserial_arduino/cmake
+
+//The directory containing a CMake configuration file for rosserial_client.
+rosserial_client_DIR:PATH=/opt/ros/lunar/share/rosserial_client/cmake
+
+//The directory containing a CMake configuration file for rosserial_msgs.
+rosserial_msgs_DIR:PATH=/opt/ros/lunar/share/rosserial_msgs/cmake
+
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/lunar/share/rostime/cmake
+
+//Value Computed by CMake
+serial_led_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/serial_led
+
+//Value Computed by CMake
+serial_led_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/serial_led
 
 //Value Computed by CMake
 servo0_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/servo0
@@ -520,7 +580,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

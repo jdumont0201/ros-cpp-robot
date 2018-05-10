@@ -1,0 +1,1 @@
+/usr/bin/avr-g++   -g -Os       -mcall-prologues -ffunction-sections -fdata-sections -fno-exceptions  -Wl,--gc-sections -lm -mmcu=atmega2560  CMakeFiles/m2560.dir/main.cpp.obj CMakeFiles/m2560.dir/home/jbmdumont/catkin_ws/build/serial_led/ros_lib/time.cpp.obj  -o /home/jbmdumont/catkin_ws/devel/share/serial_led/m2560.elf  libmega2560_CORE.a -lc -lm 
