@@ -3,13 +3,20 @@
 #include <wiringPi.h>
 #include "std_msgs/String.h"
 #include <sstream>
-#define	LED	25
+#define	LED	26
 
 ros::Publisher status;
 
 bool callback(n_led::led_on::Request & req, n_led::led_on::Response & res){
-	ROS_INFO("led_on: called");
-	digitalWrite(LED,HIGH);
+
+	if(req.status){
+		ROS_INFO("led0:on");
+		for(;;)
+		digitalWrite(LED,HIGH);
+	}else{
+		ROS_INFO("led0:off");
+		digitalWrite(LED,LOW);
+	}
 	std_msgs::String msg;
 	std::stringstream ss;
   	ss << "on" ;

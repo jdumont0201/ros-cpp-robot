@@ -1,0 +1,3 @@
+<launch>
+<node pkg="led1" name="led1" type="led1_server_node" output="screen"></node>
+</launch>
