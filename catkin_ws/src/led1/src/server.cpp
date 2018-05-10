@@ -4,13 +4,13 @@
 #include "std_msgs/String.h"
 #include <sstream>
 #define	LED	19
-
+#include <iostream>
 ros::Publisher status;
 
 bool callback(led1::mode::Request & req, led1::mode::Response & res){
 	if(req.status){
 		ROS_INFO("led1:on");
-		digitalWrite(LED,HIGH);
+		digitalWrite(LED,HIGH);//delay(500);digitalWrite(LED,LOW);
 	}else{
 		ROS_INFO("led1:off");
 		digitalWrite(LED,LOW);
@@ -23,7 +23,10 @@ bool callback(led1::mode::Request & req, led1::mode::Response & res){
 	return true;
 }
 int main(int argc,char **argv){
-	wiringPiSetupSys() ;
+	
+	if(wiringPiSetupGpio()<0){
+		ROS_ERROR("Cannot setup wiringPi");
+	} ;
 	ros::init(argc,argv,"led1_server");
 	ros::NodeHandle n;
 	status = n.advertise<std_msgs::String>("led1_mode", 10);

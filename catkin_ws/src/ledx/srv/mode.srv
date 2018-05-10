@@ -1,0 +1,4 @@
+bool status
+int32 id
+---
+string res

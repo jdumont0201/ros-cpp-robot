@@ -1,0 +1,7 @@
+<launch>
+
+<node pkg="led0" name="led0_client" type="led0_client_node" output="screen">
+<param name="mode" value="off" type="str"/>
+</node>
+
+</launch>

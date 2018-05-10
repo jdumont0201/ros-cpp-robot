@@ -344,10 +344,22 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Value Computed by CMake
+led0_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/led0
+
+//Value Computed by CMake
+led0_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/led0
+
+//Value Computed by CMake
 led1_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/led1
 
 //Value Computed by CMake
 led1_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/led1
+
+//Value Computed by CMake
+ledx_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/ledx
+
+//Value Computed by CMake
+ledx_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/ledx
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/lunar/lib/libactionlib.so
@@ -508,7 +520,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

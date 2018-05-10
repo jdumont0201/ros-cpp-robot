@@ -51,6 +51,10 @@ ros/ros.h
 /home/jbmdumont/catkin_ws/src/led1/src/ros/ros.h
 led1/mode.h
 /home/jbmdumont/catkin_ws/src/led1/src/led1/mode.h
+string
+-
+iostream
+-
 
 /opt/ros/lunar/include/ros/advertise_options.h
 ros/forwards.h
