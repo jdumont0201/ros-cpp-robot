@@ -1,0 +1,12 @@
+<launch>
+
+<!-- GYRO -->
+<node pkg="gyro0" name="gyro0_pub_node" type="gyro0_node" output="screen"></node>
+
+<!-- LED -->
+<node pkg="ledx" name="ledx_server" type="ledx_server_node" output="screen"></node>
+<!--<node pkg="ledx" name="ledx_client" type="ledx_client_node" output="screen"></node>-->
+
+<!-- GPS -->
+<node pkg="gps0" name="gps0" type="gps0_node" output="screen"></node>
+</launch>

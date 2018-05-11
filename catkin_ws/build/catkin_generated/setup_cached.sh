@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
+export PATH="/opt/ros/lunar/bin:/home/jbmdumont/bin:/home/jbmdumont/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
 export PWD="/home/jbmdumont/catkin_ws/build"

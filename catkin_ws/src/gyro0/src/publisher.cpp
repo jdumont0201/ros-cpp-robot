@@ -24,10 +24,10 @@ int main(int argc, char **argv){
 
   
   ros::Publisher pub_gyro = n.advertise<geometry_msgs::Vector3>("gyro", 1000);
-  ros::Publisher pub_accel = n.advertise<geometry_msgs::Vector3>("accel", 1000);
+  ros::Publisher pub_accel = n.advertise<geometry_msgs::Vector3>("accel",1000);
   ros::Publisher pub_mag = n.advertise<geometry_msgs::Vector3>("mag", 1000);
 
-  ros::Rate loop_rate(60);
+  ros::Rate loop_rate(5);
 
     //INIT CALIB
     imu.begin();
@@ -35,7 +35,8 @@ int main(int argc, char **argv){
         fprintf(stderr, "Failed to communicate with LSM9DS1.\n");
         exit(EXIT_FAILURE);
     }
-    imu.calibrate();
+    imu.calibrate(true);
+	imu.calibrateMag(true);
 
 
   while (ros::ok())  {
@@ -69,7 +70,7 @@ int main(int argc, char **argv){
         mag_val.z=      imu.calcMag(imu.mz);
         pub_mag.publish(mag_val); 
 	
-        sleep(1.0);
+        //sleep(1.0);
 
 
 

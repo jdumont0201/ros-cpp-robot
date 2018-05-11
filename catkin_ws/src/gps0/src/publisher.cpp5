@@ -1,0 +1,46 @@
+#include "ros/ros.h"
+#include "std_msgs/String.h"
+#include "geometry_msgs/Vector3.h"
+#include <sstream>
+extern "C" {
+#include "libgps/gps.h"
+}
+
+char * node_name="gps_pub_node";
+char * topic_name="gps";
+
+
+int main(int argc, char **argv){
+	ROS_INFO("[%s] init",node_name);
+  //INIT
+  ros::init(argc, argv, node_name);
+  ros::NodeHandle n;
+ 
+  ros::Publisher pub = n.advertise<geometry_msgs::Vector3>("gps", 1000);
+
+  ros::Rate loop_rate(5);
+
+    //INIT CALIB
+ROS_INFO("bi");
+   gps_init();
+ROS_INFO("bi f");
+    loc_t data;
+
+  while (ros::ok())  {
+	ROS_INFO("bilgf");
+	gps_location(&data);
+	ROS_INFO("location");
+	geometry_msgs::Vector3 gyro_val;
+	gyro_val.x=	data.latitude;
+	gyro_val.y=	data.longitude;
+	gyro_val.z=	0;
+	pub.publish(gyro_val);
+	ROS_INFO("%f %f",data.latitude, data.longitude);
+
+    ros::spinOnce();
+    loop_rate.sleep();
+  }
+
+
+  return 0;
+}

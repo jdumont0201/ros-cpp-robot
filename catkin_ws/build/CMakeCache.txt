@@ -237,6 +237,9 @@ LSB_RELEASE_EXECUTABLE:FILEPATH=/usr/bin/lsb_release
 //Path to a program.
 NOSETESTS:FILEPATH=/usr/bin/nosetests-2.7
 
+//pkg-config executable
+PKG_CONFIG_EXECUTABLE:FILEPATH=/usr/bin/pkg-config
+
 //Path to a program.
 PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 
@@ -260,6 +263,9 @@ UBUNTU:BOOL=TRUE
 
 //LSB Distrib - codename tag
 UBUNTU_XENIAL:BOOL=TRUE
+
+//Path to a file.
+_file_name:FILEPATH=/home/jbmdumont/catkin_ws/src/rospy_tutorials/test/test-connection-header.launch
 
 //Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
@@ -303,6 +309,9 @@ gennodejs_DIR:PATH=/opt/ros/lunar/share/gennodejs/cmake
 //The directory containing a CMake configuration file for genpy.
 genpy_DIR:PATH=/opt/ros/lunar/share/genpy/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/lunar/share/geometry_msgs/cmake
+
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/gtest
 
@@ -317,6 +326,33 @@ gmock_build_tests:BOOL=OFF
 
 //Dependencies for the target
 gmock_main_LIB_DEPENDS:STATIC=general;-lpthread;
+
+//Value Computed by CMake
+gps0_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/gps0
+
+//Value Computed by CMake
+gps0_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/gps0
+
+//Value Computed by CMake
+gps_common_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/gps_umd/gps_common
+
+//The directory containing a CMake configuration file for gps_common.
+gps_common_DIR:PATH=/home/jbmdumont/catkin_ws/devel/share/gps_common/cmake
+
+//Value Computed by CMake
+gps_common_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/gps_umd/gps_common
+
+//Value Computed by CMake
+gps_umd_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/gps_umd/gps_umd
+
+//Value Computed by CMake
+gps_umd_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/gps_umd/gps_umd
+
+//Value Computed by CMake
+gpsd_client_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/gps_umd/gpsd_client
+
+//Value Computed by CMake
+gpsd_client_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/gps_umd/gpsd_client
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/gtest/gtest
@@ -376,6 +412,15 @@ ledx_serial_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/ledx_serial
 //Path to a library.
 lib:FILEPATH=/opt/ros/lunar/lib/librostime.so
 
+//Value Computed by CMake
+main_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/main
+
+//Value Computed by CMake
+main_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/main
+
+//The directory containing a CMake configuration file for message_filters.
+message_filters_DIR:PATH=/opt/ros/lunar/share/message_filters/cmake
+
 //The directory containing a CMake configuration file for message_generation.
 message_generation_DIR:PATH=/opt/ros/lunar/share/message_generation/cmake
 
@@ -387,6 +432,9 @@ n_led_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/n_led
 
 //Value Computed by CMake
 n_led_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/n_led
+
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/lunar/share/nav_msgs/cmake
 
 //Value Computed by CMake
 ros_arduino_bridge_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/ros_arduino_bridge/ros_arduino_bridge
@@ -430,6 +478,12 @@ rosgraph_msgs_DIR:PATH=/opt/ros/lunar/share/rosgraph_msgs/cmake
 //The directory containing a CMake configuration file for rospy.
 rospy_DIR:PATH=/opt/ros/lunar/share/rospy/cmake
 
+//Value Computed by CMake
+rospy_tutorials_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/rospy_tutorials
+
+//Value Computed by CMake
+rospy_tutorials_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/rospy_tutorials
+
 //The directory containing a CMake configuration file for rosserial.
 rosserial_DIR:PATH=rosserial_DIR-NOTFOUND
 
@@ -445,8 +499,14 @@ rosserial_client_DIR:PATH=/opt/ros/lunar/share/rosserial_client/cmake
 //The directory containing a CMake configuration file for rosserial_msgs.
 rosserial_msgs_DIR:PATH=/opt/ros/lunar/share/rosserial_msgs/cmake
 
+//The directory containing a CMake configuration file for rostest.
+rostest_DIR:PATH=/opt/ros/lunar/share/rostest/cmake
+
 //The directory containing a CMake configuration file for rostime.
 rostime_DIR:PATH=/opt/ros/lunar/share/rostime/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/lunar/share/sensor_msgs/cmake
 
 //Value Computed by CMake
 serial_led_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/serial_led
@@ -580,7 +640,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=20
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -619,6 +679,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v0.29.1()]
 //Details about finding PythonInterp
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.12()]
 //Details about finding Threads
@@ -643,6 +705,8 @@ GTEST_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
 GTEST_MAIN_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: GTEST_MAIN_LIBRARY_DEBUG
 GTEST_MAIN_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: PKG_CONFIG_EXECUTABLE
+PKG_CONFIG_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //This needs to be in PYTHONPATH when 'setup.py install' is called.
@@ -661,4 +725,40 @@ _Boost_LIBRARY_DIR_RELEASE_LAST:INTERNAL=/usr/lib/arm-linux-gnueabihf
 _Boost_NAMESPACE_LAST:INTERNAL=boost
 //Last used Boost_USE_MULTITHREADED value.
 _Boost_USE_MULTITHREADED_LAST:INTERNAL=TRUE
+__pkg_config_checked_libgps:INTERNAL=1
+libgps_CFLAGS:INTERNAL=
+libgps_CFLAGS_I:INTERNAL=
+libgps_CFLAGS_OTHER:INTERNAL=
+libgps_FOUND:INTERNAL=1
+libgps_INCLUDEDIR:INTERNAL=/usr/include
+libgps_INCLUDE_DIRS:INTERNAL=
+libgps_LDFLAGS:INTERNAL=-lgps
+libgps_LDFLAGS_OTHER:INTERNAL=
+libgps_LIBDIR:INTERNAL=/usr/lib/arm-linux-gnueabihf
+libgps_LIBRARIES:INTERNAL=gps
+libgps_LIBRARY_DIRS:INTERNAL=
+libgps_LIBS:INTERNAL=
+libgps_LIBS_L:INTERNAL=
+libgps_LIBS_OTHER:INTERNAL=
+libgps_LIBS_PATHS:INTERNAL=
+libgps_PREFIX:INTERNAL=/usr
+libgps_STATIC_CFLAGS:INTERNAL=
+libgps_STATIC_CFLAGS_I:INTERNAL=
+libgps_STATIC_CFLAGS_OTHER:INTERNAL=
+libgps_STATIC_INCLUDE_DIRS:INTERNAL=
+libgps_STATIC_LDFLAGS:INTERNAL=-lgps
+libgps_STATIC_LDFLAGS_OTHER:INTERNAL=
+libgps_STATIC_LIBDIR:INTERNAL=
+libgps_STATIC_LIBRARIES:INTERNAL=gps
+libgps_STATIC_LIBRARY_DIRS:INTERNAL=
+libgps_STATIC_LIBS:INTERNAL=
+libgps_STATIC_LIBS_L:INTERNAL=
+libgps_STATIC_LIBS_OTHER:INTERNAL=
+libgps_STATIC_LIBS_PATHS:INTERNAL=
+libgps_VERSION:INTERNAL=3.15
+libgps_libgps_INCLUDEDIR:INTERNAL=
+libgps_libgps_LIBDIR:INTERNAL=
+libgps_libgps_PREFIX:INTERNAL=
+libgps_libgps_VERSION:INTERNAL=
+prefix_result:INTERNAL=/usr/lib/arm-linux-gnueabihf
 

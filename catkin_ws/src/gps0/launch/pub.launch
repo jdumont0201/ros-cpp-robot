@@ -1,0 +1,3 @@
+<launch>
+<node pkg="gps0"  name="gps0_pub_node" type="gps0_node" output="screen"></node>
+</launch>
