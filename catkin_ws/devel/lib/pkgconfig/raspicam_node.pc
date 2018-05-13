@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/devel
+
+Name: raspicam_node
+Description: Description of raspicam_node
+Version: 0.2.2
+Cflags: -I/home/jbmdumont/catkin_ws/devel/include -I/home/jbmdumont/catkin_ws/src/raspicam_node/include
+Libs: -L/home/jbmdumont/catkin_ws/devel/lib 
+Requires: 

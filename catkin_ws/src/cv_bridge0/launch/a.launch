@@ -1,0 +1,4 @@
+<launch>
+	<node pkg="cv_bridge0" name="cv_bridge" type="cv_bridge0_node" output="screen">
+	</node>
+</launch>

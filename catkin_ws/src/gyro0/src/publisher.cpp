@@ -28,7 +28,7 @@ int main(int argc, char **argv){
   ros::Publisher pub_mag = n.advertise<geometry_msgs::Vector3>("mag", 1000);
 
   ros::Rate loop_rate(5);
-
+	ROS_INFO("[%s] init",node_name);
     //INIT CALIB
     imu.begin();
     if (!imu.begin()) {
@@ -37,6 +37,7 @@ int main(int argc, char **argv){
     }
     imu.calibrate(true);
 	imu.calibrateMag(true);
+	ROS_INFO("[%s] init ok, now run...",node_name);
 
 
   while (ros::ok())  {

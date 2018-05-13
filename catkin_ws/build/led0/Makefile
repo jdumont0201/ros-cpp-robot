@@ -375,60 +375,6 @@ led0_generate_messages_nodejs/fast:
 	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f led0/CMakeFiles/led0_generate_messages_nodejs.dir/build.make led0/CMakeFiles/led0_generate_messages_nodejs.dir/build
 .PHONY : led0_generate_messages_nodejs/fast
 
-src/client.o: src/client.cpp.o
-
-.PHONY : src/client.o
-
-# target to build an object file
-src/client.cpp.o:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f led0/CMakeFiles/led0_client_node.dir/build.make led0/CMakeFiles/led0_client_node.dir/src/client.cpp.o
-.PHONY : src/client.cpp.o
-
-src/client.i: src/client.cpp.i
-
-.PHONY : src/client.i
-
-# target to preprocess a source file
-src/client.cpp.i:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f led0/CMakeFiles/led0_client_node.dir/build.make led0/CMakeFiles/led0_client_node.dir/src/client.cpp.i
-.PHONY : src/client.cpp.i
-
-src/client.s: src/client.cpp.s
-
-.PHONY : src/client.s
-
-# target to generate assembly for a file
-src/client.cpp.s:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f led0/CMakeFiles/led0_client_node.dir/build.make led0/CMakeFiles/led0_client_node.dir/src/client.cpp.s
-.PHONY : src/client.cpp.s
-
-src/server.o: src/server.cpp.o
-
-.PHONY : src/server.o
-
-# target to build an object file
-src/server.cpp.o:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f led0/CMakeFiles/led0_server_node.dir/build.make led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o
-.PHONY : src/server.cpp.o
-
-src/server.i: src/server.cpp.i
-
-.PHONY : src/server.i
-
-# target to preprocess a source file
-src/server.cpp.i:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f led0/CMakeFiles/led0_server_node.dir/build.make led0/CMakeFiles/led0_server_node.dir/src/server.cpp.i
-.PHONY : src/server.cpp.i
-
-src/server.s: src/server.cpp.s
-
-.PHONY : src/server.s
-
-# target to generate assembly for a file
-src/server.cpp.s:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f led0/CMakeFiles/led0_server_node.dir/build.make led0/CMakeFiles/led0_server_node.dir/src/server.cpp.s
-.PHONY : src/server.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -456,12 +402,6 @@ help:
 	@echo "... led0_generate_messages_py"
 	@echo "... led0_genlisp"
 	@echo "... led0_generate_messages_nodejs"
-	@echo "... src/client.o"
-	@echo "... src/client.i"
-	@echo "... src/client.s"
-	@echo "... src/server.o"
-	@echo "... src/server.i"
-	@echo "... src/server.s"
 .PHONY : help
 
 

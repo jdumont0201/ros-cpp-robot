@@ -57,68 +57,7 @@ include led0/CMakeFiles/led0_server_node.dir/progress.make
 # Include the compile flags for this target's objects.
 include led0/CMakeFiles/led0_server_node.dir/flags.make
 
-led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o: led0/CMakeFiles/led0_server_node.dir/flags.make
-led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o: /home/jbmdumont/catkin_ws/src/led0/src/server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jbmdumont/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o"
-	cd /home/jbmdumont/catkin_ws/build/led0 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/led0_server_node.dir/src/server.cpp.o -c /home/jbmdumont/catkin_ws/src/led0/src/server.cpp
-
-led0/CMakeFiles/led0_server_node.dir/src/server.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/led0_server_node.dir/src/server.cpp.i"
-	cd /home/jbmdumont/catkin_ws/build/led0 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jbmdumont/catkin_ws/src/led0/src/server.cpp > CMakeFiles/led0_server_node.dir/src/server.cpp.i
-
-led0/CMakeFiles/led0_server_node.dir/src/server.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/led0_server_node.dir/src/server.cpp.s"
-	cd /home/jbmdumont/catkin_ws/build/led0 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jbmdumont/catkin_ws/src/led0/src/server.cpp -o CMakeFiles/led0_server_node.dir/src/server.cpp.s
-
-led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o.requires:
-
-.PHONY : led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o.requires
-
-led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o.provides: led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o.requires
-	$(MAKE) -f led0/CMakeFiles/led0_server_node.dir/build.make led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o.provides.build
-.PHONY : led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o.provides
-
-led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o.provides.build: led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o
-
-
-# Object files for target led0_server_node
-led0_server_node_OBJECTS = \
-"CMakeFiles/led0_server_node.dir/src/server.cpp.o"
-
-# External object files for target led0_server_node
-led0_server_node_EXTERNAL_OBJECTS =
-
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: led0/CMakeFiles/led0_server_node.dir/build.make
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /opt/ros/lunar/lib/libroscpp.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /usr/lib/arm-linux-gnueabihf/libboost_filesystem.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /usr/lib/arm-linux-gnueabihf/libboost_signals.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /opt/ros/lunar/lib/librosconsole.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /opt/ros/lunar/lib/librosconsole_log4cxx.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /opt/ros/lunar/lib/librosconsole_backend_interface.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /usr/lib/arm-linux-gnueabihf/liblog4cxx.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /usr/lib/arm-linux-gnueabihf/libboost_regex.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /opt/ros/lunar/lib/libxmlrpcpp.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /opt/ros/lunar/lib/libroscpp_serialization.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /opt/ros/lunar/lib/librostime.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /opt/ros/lunar/lib/libcpp_common.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /usr/lib/arm-linux-gnueabihf/libboost_system.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /usr/lib/arm-linux-gnueabihf/libboost_thread.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /usr/lib/arm-linux-gnueabihf/libboost_chrono.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /usr/lib/arm-linux-gnueabihf/libboost_date_time.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /usr/lib/arm-linux-gnueabihf/libboost_atomic.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /usr/lib/arm-linux-gnueabihf/libpthread.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: /usr/lib/arm-linux-gnueabihf/libconsole_bridge.so
-/home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node: led0/CMakeFiles/led0_server_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jbmdumont/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node"
-	cd /home/jbmdumont/catkin_ws/build/led0 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/led0_server_node.dir/link.txt --verbose=$(VERBOSE)
-
-# Rule to build all files generated by this target.
-led0/CMakeFiles/led0_server_node.dir/build: /home/jbmdumont/catkin_ws/devel/lib/led0/led0_server_node
-
-.PHONY : led0/CMakeFiles/led0_server_node.dir/build
-
-led0/CMakeFiles/led0_server_node.dir/requires: led0/CMakeFiles/led0_server_node.dir/src/server.cpp.o.requires
+led0/CMakeFiles/led0_server_node.dir/requires:
 
 .PHONY : led0/CMakeFiles/led0_server_node.dir/requires
 

@@ -1,2 +1,2 @@
-gps0:gps_umd/gps_common:gps_umd/gps_umd:gps_umd/gpsd_client:gyro0:led0:led1:ledx:main:n_led:ros_arduino_bridge/ros_arduino_bridge:ros_arduino_bridge/ros_arduino_firmware:ros_arduino_bridge/ros_arduino_msgs:ros_arduino_bridge/ros_arduino_python:rospy_tutorials:serial_led:servo0
--DCATKIN_DEVEL_PREFIX=/home/jbmdumont/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jbmdumont/catkin_ws/install -G Unix Makefiles
+cam:cam0:cv_bridge0:gps0:gyro0:ledx:main:servo0:usb_cam
+-DCATKIN_WHITELIST_PACKAGES= -DCATKIN_BLACKLIST_PACKAGES= -DCATKIN_DEVEL_PREFIX=/home/jbmdumont/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jbmdumont/catkin_ws/install -G Unix Makefiles

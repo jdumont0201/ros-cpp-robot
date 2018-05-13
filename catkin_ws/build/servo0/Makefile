@@ -166,49 +166,64 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-servo0/CMakeFiles/servo0_genpy.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_genpy.dir/rule
-.PHONY : servo0/CMakeFiles/servo0_genpy.dir/rule
+servo0/CMakeFiles/servo0_generate_messages_py.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_generate_messages_py.dir/rule
+.PHONY : servo0/CMakeFiles/servo0_generate_messages_py.dir/rule
 
 # Convenience name for target.
-servo0_genpy: servo0/CMakeFiles/servo0_genpy.dir/rule
+servo0_generate_messages_py: servo0/CMakeFiles/servo0_generate_messages_py.dir/rule
 
-.PHONY : servo0_genpy
+.PHONY : servo0_generate_messages_py
 
 # fast build rule for target.
-servo0_genpy/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_genpy.dir/build.make servo0/CMakeFiles/servo0_genpy.dir/build
-.PHONY : servo0_genpy/fast
+servo0_generate_messages_py/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_generate_messages_py.dir/build.make servo0/CMakeFiles/servo0_generate_messages_py.dir/build
+.PHONY : servo0_generate_messages_py/fast
 
 # Convenience name for target.
-servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/rule
-.PHONY : servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/rule
+servo0/CMakeFiles/servo0_server_node.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_server_node.dir/rule
+.PHONY : servo0/CMakeFiles/servo0_server_node.dir/rule
 
 # Convenience name for target.
-_servo0_generate_messages_check_deps_angleFeedback: servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/rule
+servo0_server_node: servo0/CMakeFiles/servo0_server_node.dir/rule
 
-.PHONY : _servo0_generate_messages_check_deps_angleFeedback
+.PHONY : servo0_server_node
 
 # fast build rule for target.
-_servo0_generate_messages_check_deps_angleFeedback/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/build.make servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/build
-.PHONY : _servo0_generate_messages_check_deps_angleFeedback/fast
+servo0_server_node/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_server_node.dir/build.make servo0/CMakeFiles/servo0_server_node.dir/build
+.PHONY : servo0_server_node/fast
 
 # Convenience name for target.
-servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/rule
-.PHONY : servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/rule
+servo0/CMakeFiles/servo0_gennodejs.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_gennodejs.dir/rule
+.PHONY : servo0/CMakeFiles/servo0_gennodejs.dir/rule
 
 # Convenience name for target.
-_servo0_generate_messages_check_deps_angleActionFeedback: servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/rule
+servo0_gennodejs: servo0/CMakeFiles/servo0_gennodejs.dir/rule
 
-.PHONY : _servo0_generate_messages_check_deps_angleActionFeedback
+.PHONY : servo0_gennodejs
 
 # fast build rule for target.
-_servo0_generate_messages_check_deps_angleActionFeedback/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/build.make servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/build
-.PHONY : _servo0_generate_messages_check_deps_angleActionFeedback/fast
+servo0_gennodejs/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_gennodejs.dir/build.make servo0/CMakeFiles/servo0_gennodejs.dir/build
+.PHONY : servo0_gennodejs/fast
+
+# Convenience name for target.
+servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/rule
+.PHONY : servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+servo0_generate_messages_nodejs: servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/rule
+
+.PHONY : servo0_generate_messages_nodejs
+
+# fast build rule for target.
+servo0_generate_messages_nodejs/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/build.make servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/build
+.PHONY : servo0_generate_messages_nodejs/fast
 
 # Convenience name for target.
 servo0/CMakeFiles/servo0_generate_messages_lisp.dir/rule:
@@ -226,19 +241,79 @@ servo0_generate_messages_lisp/fast:
 .PHONY : servo0_generate_messages_lisp/fast
 
 # Convenience name for target.
-servo0/CMakeFiles/servo0_generate_messages.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_generate_messages.dir/rule
-.PHONY : servo0/CMakeFiles/servo0_generate_messages.dir/rule
+servo0/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
+.PHONY : servo0/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
-servo0_generate_messages: servo0/CMakeFiles/servo0_generate_messages.dir/rule
+actionlib_msgs_generate_messages_nodejs: servo0/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/rule
 
-.PHONY : servo0_generate_messages
+.PHONY : actionlib_msgs_generate_messages_nodejs
 
 # fast build rule for target.
-servo0_generate_messages/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_generate_messages.dir/build.make servo0/CMakeFiles/servo0_generate_messages.dir/build
-.PHONY : servo0_generate_messages/fast
+actionlib_msgs_generate_messages_nodejs/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build.make servo0/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/build
+.PHONY : actionlib_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+servo0/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+.PHONY : servo0/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_eus: servo0/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_eus
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_eus/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build.make servo0/CMakeFiles/actionlib_msgs_generate_messages_eus.dir/build
+.PHONY : actionlib_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+servo0/CMakeFiles/servo0_genpy.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_genpy.dir/rule
+.PHONY : servo0/CMakeFiles/servo0_genpy.dir/rule
+
+# Convenience name for target.
+servo0_genpy: servo0/CMakeFiles/servo0_genpy.dir/rule
+
+.PHONY : servo0_genpy
+
+# fast build rule for target.
+servo0_genpy/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_genpy.dir/build.make servo0/CMakeFiles/servo0_genpy.dir/build
+.PHONY : servo0_genpy/fast
+
+# Convenience name for target.
+servo0/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+.PHONY : servo0/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_py: servo0/CMakeFiles/actionlib_msgs_generate_messages_py.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_py
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_py/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build.make servo0/CMakeFiles/actionlib_msgs_generate_messages_py.dir/build
+.PHONY : actionlib_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/rule
+.PHONY : servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/rule
+
+# Convenience name for target.
+_servo0_generate_messages_check_deps_angleActionFeedback: servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/rule
+
+.PHONY : _servo0_generate_messages_check_deps_angleActionFeedback
+
+# fast build rule for target.
+_servo0_generate_messages_check_deps_angleActionFeedback/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/build.make servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionFeedback.dir/build
+.PHONY : _servo0_generate_messages_check_deps_angleActionFeedback/fast
 
 # Convenience name for target.
 servo0/CMakeFiles/servo0_client_node.dir/rule:
@@ -256,6 +331,21 @@ servo0_client_node/fast:
 .PHONY : servo0_client_node/fast
 
 # Convenience name for target.
+servo0/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+.PHONY : servo0/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_cpp: servo0/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_cpp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_cpp/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build.make servo0/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/build
+.PHONY : actionlib_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
 servo0/CMakeFiles/actionlib_generate_messages_py.dir/rule:
 	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/actionlib_generate_messages_py.dir/rule
 .PHONY : servo0/CMakeFiles/actionlib_generate_messages_py.dir/rule
@@ -269,6 +359,36 @@ actionlib_generate_messages_py: servo0/CMakeFiles/actionlib_generate_messages_py
 actionlib_generate_messages_py/fast:
 	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/actionlib_generate_messages_py.dir/build.make servo0/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
+
+# Convenience name for target.
+servo0/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+.PHONY : servo0/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+actionlib_msgs_generate_messages_lisp: servo0/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : actionlib_msgs_generate_messages_lisp
+
+# fast build rule for target.
+actionlib_msgs_generate_messages_lisp/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build.make servo0/CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/build
+.PHONY : actionlib_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/rule
+.PHONY : servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/rule
+
+# Convenience name for target.
+_servo0_generate_messages_check_deps_angleGoal: servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/rule
+
+.PHONY : _servo0_generate_messages_check_deps_angleGoal
+
+# fast build rule for target.
+_servo0_generate_messages_check_deps_angleGoal/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/build.make servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/build
+.PHONY : _servo0_generate_messages_check_deps_angleGoal/fast
 
 # Convenience name for target.
 servo0/CMakeFiles/actionlib_generate_messages_cpp.dir/rule:
@@ -316,34 +436,94 @@ actionlib_generate_messages_eus/fast:
 .PHONY : actionlib_generate_messages_eus/fast
 
 # Convenience name for target.
-servo0/CMakeFiles/servo0_generate_messages_py.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_generate_messages_py.dir/rule
-.PHONY : servo0/CMakeFiles/servo0_generate_messages_py.dir/rule
+servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
+.PHONY : servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
-servo0_generate_messages_py: servo0/CMakeFiles/servo0_generate_messages_py.dir/rule
+actionlib_generate_messages_lisp: servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
 
-.PHONY : servo0_generate_messages_py
+.PHONY : actionlib_generate_messages_lisp
 
 # fast build rule for target.
-servo0_generate_messages_py/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_generate_messages_py.dir/build.make servo0/CMakeFiles/servo0_generate_messages_py.dir/build
-.PHONY : servo0_generate_messages_py/fast
+actionlib_generate_messages_lisp/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/build
+.PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
-servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/rule
-.PHONY : servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/rule
+servo0/CMakeFiles/servo0_genlisp.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_genlisp.dir/rule
+.PHONY : servo0/CMakeFiles/servo0_genlisp.dir/rule
 
 # Convenience name for target.
-_servo0_generate_messages_check_deps_angleGoal: servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/rule
+servo0_genlisp: servo0/CMakeFiles/servo0_genlisp.dir/rule
 
-.PHONY : _servo0_generate_messages_check_deps_angleGoal
+.PHONY : servo0_genlisp
 
 # fast build rule for target.
-_servo0_generate_messages_check_deps_angleGoal/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/build.make servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleGoal.dir/build
-.PHONY : _servo0_generate_messages_check_deps_angleGoal/fast
+servo0_genlisp/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_genlisp.dir/build.make servo0/CMakeFiles/servo0_genlisp.dir/build
+.PHONY : servo0_genlisp/fast
+
+# Convenience name for target.
+servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/rule
+.PHONY : servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/rule
+
+# Convenience name for target.
+_servo0_generate_messages_check_deps_angleActionGoal: servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/rule
+
+.PHONY : _servo0_generate_messages_check_deps_angleActionGoal
+
+# fast build rule for target.
+_servo0_generate_messages_check_deps_angleActionGoal/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/build.make servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/build
+.PHONY : _servo0_generate_messages_check_deps_angleActionGoal/fast
+
+# Convenience name for target.
+servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+.PHONY : servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+actionlib_generate_messages_nodejs: servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
+
+.PHONY : actionlib_generate_messages_nodejs
+
+# fast build rule for target.
+actionlib_generate_messages_nodejs/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
+.PHONY : actionlib_generate_messages_nodejs/fast
+
+# Convenience name for target.
+servo0/CMakeFiles/servo0_generate_messages.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_generate_messages.dir/rule
+.PHONY : servo0/CMakeFiles/servo0_generate_messages.dir/rule
+
+# Convenience name for target.
+servo0_generate_messages: servo0/CMakeFiles/servo0_generate_messages.dir/rule
+
+.PHONY : servo0_generate_messages
+
+# fast build rule for target.
+servo0_generate_messages/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_generate_messages.dir/build.make servo0/CMakeFiles/servo0_generate_messages.dir/build
+.PHONY : servo0_generate_messages/fast
+
+# Convenience name for target.
+servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/rule:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/rule
+.PHONY : servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/rule
+
+# Convenience name for target.
+_servo0_generate_messages_check_deps_angleFeedback: servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/rule
+
+.PHONY : _servo0_generate_messages_check_deps_angleFeedback
+
+# fast build rule for target.
+_servo0_generate_messages_check_deps_angleFeedback/fast:
+	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/build.make servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleFeedback.dir/build
+.PHONY : _servo0_generate_messages_check_deps_angleFeedback/fast
 
 # Convenience name for target.
 servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionResult.dir/rule:
@@ -359,21 +539,6 @@ _servo0_generate_messages_check_deps_angleActionResult: servo0/CMakeFiles/_servo
 _servo0_generate_messages_check_deps_angleActionResult/fast:
 	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionResult.dir/build.make servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionResult.dir/build
 .PHONY : _servo0_generate_messages_check_deps_angleActionResult/fast
-
-# Convenience name for target.
-servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-.PHONY : servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_lisp: servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/rule
-
-.PHONY : actionlib_generate_messages_lisp
-
-# fast build rule for target.
-actionlib_generate_messages_lisp/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/build.make servo0/CMakeFiles/actionlib_generate_messages_lisp.dir/build
-.PHONY : actionlib_generate_messages_lisp/fast
 
 # Convenience name for target.
 servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleAction.dir/rule:
@@ -404,21 +569,6 @@ servo0_gencpp: servo0/CMakeFiles/servo0_gencpp.dir/rule
 servo0_gencpp/fast:
 	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_gencpp.dir/build.make servo0/CMakeFiles/servo0_gencpp.dir/build
 .PHONY : servo0_gencpp/fast
-
-# Convenience name for target.
-servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/rule
-.PHONY : servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-servo0_generate_messages_nodejs: servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/rule
-
-.PHONY : servo0_generate_messages_nodejs
-
-# fast build rule for target.
-servo0_generate_messages_nodejs/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/build.make servo0/CMakeFiles/servo0_generate_messages_nodejs.dir/build
-.PHONY : servo0_generate_messages_nodejs/fast
 
 # Convenience name for target.
 servo0/CMakeFiles/servo0_generate_messages_eus.dir/rule:
@@ -464,81 +614,6 @@ servo0_geneus: servo0/CMakeFiles/servo0_geneus.dir/rule
 servo0_geneus/fast:
 	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_geneus.dir/build.make servo0/CMakeFiles/servo0_geneus.dir/build
 .PHONY : servo0_geneus/fast
-
-# Convenience name for target.
-servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-.PHONY : servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-actionlib_generate_messages_nodejs: servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/rule
-
-.PHONY : actionlib_generate_messages_nodejs
-
-# fast build rule for target.
-actionlib_generate_messages_nodejs/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/build.make servo0/CMakeFiles/actionlib_generate_messages_nodejs.dir/build
-.PHONY : actionlib_generate_messages_nodejs/fast
-
-# Convenience name for target.
-servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/rule
-.PHONY : servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/rule
-
-# Convenience name for target.
-_servo0_generate_messages_check_deps_angleActionGoal: servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/rule
-
-.PHONY : _servo0_generate_messages_check_deps_angleActionGoal
-
-# fast build rule for target.
-_servo0_generate_messages_check_deps_angleActionGoal/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/build.make servo0/CMakeFiles/_servo0_generate_messages_check_deps_angleActionGoal.dir/build
-.PHONY : _servo0_generate_messages_check_deps_angleActionGoal/fast
-
-# Convenience name for target.
-servo0/CMakeFiles/servo0_genlisp.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_genlisp.dir/rule
-.PHONY : servo0/CMakeFiles/servo0_genlisp.dir/rule
-
-# Convenience name for target.
-servo0_genlisp: servo0/CMakeFiles/servo0_genlisp.dir/rule
-
-.PHONY : servo0_genlisp
-
-# fast build rule for target.
-servo0_genlisp/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_genlisp.dir/build.make servo0/CMakeFiles/servo0_genlisp.dir/build
-.PHONY : servo0_genlisp/fast
-
-# Convenience name for target.
-servo0/CMakeFiles/servo0_server_node.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_server_node.dir/rule
-.PHONY : servo0/CMakeFiles/servo0_server_node.dir/rule
-
-# Convenience name for target.
-servo0_server_node: servo0/CMakeFiles/servo0_server_node.dir/rule
-
-.PHONY : servo0_server_node
-
-# fast build rule for target.
-servo0_server_node/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_server_node.dir/build.make servo0/CMakeFiles/servo0_server_node.dir/build
-.PHONY : servo0_server_node/fast
-
-# Convenience name for target.
-servo0/CMakeFiles/servo0_gennodejs.dir/rule:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 servo0/CMakeFiles/servo0_gennodejs.dir/rule
-.PHONY : servo0/CMakeFiles/servo0_gennodejs.dir/rule
-
-# Convenience name for target.
-servo0_gennodejs: servo0/CMakeFiles/servo0_gennodejs.dir/rule
-
-.PHONY : servo0_gennodejs
-
-# fast build rule for target.
-servo0_gennodejs/fast:
-	cd /home/jbmdumont/catkin_ws/build && $(MAKE) -f servo0/CMakeFiles/servo0_gennodejs.dir/build.make servo0/CMakeFiles/servo0_gennodejs.dir/build
-.PHONY : servo0_gennodejs/fast
 
 src/client.o: src/client.cpp.o
 
@@ -604,34 +679,39 @@ help:
 	@echo "... edit_cache"
 	@echo "... list_install_components"
 	@echo "... install"
-	@echo "... servo0_genpy"
-	@echo "... _servo0_generate_messages_check_deps_angleFeedback"
-	@echo "... _servo0_generate_messages_check_deps_angleActionFeedback"
+	@echo "... servo0_generate_messages_py"
+	@echo "... servo0_server_node"
+	@echo "... servo0_gennodejs"
+	@echo "... servo0_generate_messages_nodejs"
 	@echo "... install/strip"
 	@echo "... servo0_generate_messages_lisp"
-	@echo "... test"
-	@echo "... servo0_generate_messages"
+	@echo "... actionlib_msgs_generate_messages_nodejs"
+	@echo "... actionlib_msgs_generate_messages_eus"
+	@echo "... servo0_genpy"
+	@echo "... actionlib_msgs_generate_messages_py"
+	@echo "... _servo0_generate_messages_check_deps_angleActionFeedback"
 	@echo "... servo0_client_node"
+	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_py"
+	@echo "... actionlib_msgs_generate_messages_lisp"
+	@echo "... _servo0_generate_messages_check_deps_angleGoal"
 	@echo "... actionlib_generate_messages_cpp"
 	@echo "... servo0_generate_messages_cpp"
 	@echo "... actionlib_generate_messages_eus"
-	@echo "... servo0_generate_messages_py"
-	@echo "... _servo0_generate_messages_check_deps_angleGoal"
-	@echo "... _servo0_generate_messages_check_deps_angleActionResult"
 	@echo "... actionlib_generate_messages_lisp"
+	@echo "... servo0_genlisp"
+	@echo "... _servo0_generate_messages_check_deps_angleActionGoal"
+	@echo "... actionlib_generate_messages_nodejs"
+	@echo "... test"
+	@echo "... servo0_generate_messages"
+	@echo "... _servo0_generate_messages_check_deps_angleFeedback"
+	@echo "... _servo0_generate_messages_check_deps_angleActionResult"
 	@echo "... install/local"
 	@echo "... _servo0_generate_messages_check_deps_angleAction"
 	@echo "... servo0_gencpp"
-	@echo "... servo0_generate_messages_nodejs"
 	@echo "... servo0_generate_messages_eus"
 	@echo "... _servo0_generate_messages_check_deps_angleResult"
 	@echo "... servo0_geneus"
-	@echo "... actionlib_generate_messages_nodejs"
-	@echo "... _servo0_generate_messages_check_deps_angleActionGoal"
-	@echo "... servo0_genlisp"
-	@echo "... servo0_server_node"
-	@echo "... servo0_gennodejs"
 	@echo "... src/client.o"
 	@echo "... src/client.i"
 	@echo "... src/client.s"

@@ -1,0 +1,3 @@
+<launch>
+<node pkg="cam0"  name="cam0_pub_node" type="cam0_node" output="screen"></node>
+</launch>
