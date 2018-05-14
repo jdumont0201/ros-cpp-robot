@@ -3,6 +3,7 @@
 
 gyro0/CMakeFiles/gyro0_node.dir/src/publisher.cpp.o
  /home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp
+ /opt/ros/lunar/include/geometry_msgs/Accel.h
  /opt/ros/lunar/include/geometry_msgs/Vector3.h
  /opt/ros/lunar/include/ros/advertise_options.h
  /opt/ros/lunar/include/ros/advertise_service_options.h

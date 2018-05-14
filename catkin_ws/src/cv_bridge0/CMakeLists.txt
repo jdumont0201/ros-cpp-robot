@@ -176,7 +176,7 @@ link_directories(/usr/local/lib)
  add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
- target_link_libraries(${PROJECT_NAME}_node -lopencv_core  -lopencv_highgui 
+ target_link_libraries(${PROJECT_NAME}_node -lopencv_core  -lopencv_highgui -lopencv_objdetect
    ${catkin_LIBRARIES}
  )
 

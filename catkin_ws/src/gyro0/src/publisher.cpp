@@ -1,6 +1,7 @@
 #include "ros/ros.h"
 #include "std_msgs/String.h"
 #include "geometry_msgs/Vector3.h"
+#include "geometry_msgs/Accel.h"
 #include <sstream>
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,28 +12,26 @@
 #include "LSM9DS1_Types.h"
 #include "LSM9DS1.h"
 
+char * node_name="gyro0_node";
+//char * topic_name="gyro";
+int rate_val=20;
 
-char * node_name="gyro_node";
-char * topic_name="gyro";
-
- LSM9DS1 imu(IMU_MODE_I2C, 0x6b, 0x1e);
+LSM9DS1 imu(IMU_MODE_I2C, 0x6b, 0x1e);
 
 int main(int argc, char **argv){
   //INIT
   ros::init(argc, argv, node_name);
   ros::NodeHandle n;
 
-  
-  ros::Publisher pub_gyro = n.advertise<geometry_msgs::Vector3>("gyro", 1000);
-  ros::Publisher pub_accel = n.advertise<geometry_msgs::Vector3>("accel",1000);
+  ros::Publisher pub_accel = n.advertise<geometry_msgs::Accel>("accel",1000);
   ros::Publisher pub_mag = n.advertise<geometry_msgs::Vector3>("mag", 1000);
 
-  ros::Rate loop_rate(5);
+  ros::Rate rate(rate_val);
 	ROS_INFO("[%s] init",node_name);
     //INIT CALIB
     imu.begin();
     if (!imu.begin()) {
-        fprintf(stderr, "Failed to communicate with LSM9DS1.\n");
+        fprintf(stderr, "gyro0_node Failed to communicate with LSM9DS1.\n");
         exit(EXIT_FAILURE);
     }
     imu.calibrate(true);
@@ -41,7 +40,6 @@ int main(int argc, char **argv){
 
 
   while (ros::ok())  {
-
         while (!imu.gyroAvailable()) ;
         imu.readGyro();
         while(!imu.accelAvailable()) ;
@@ -49,21 +47,14 @@ int main(int argc, char **argv){
         while(!imu.magAvailable()) ;
         imu.readMag();
 
-        //printf("Gyro: %f, %f, %f [deg/s]\n", imu.calcGyro(imu.gx), imu.calcGyro(imu.gy), imu.calcGyro(imu.gz));
-        //printf("Accel: %f, %f, %f [Gs]\n", imu.calcAccel(imu.ax), imu.calcAccel(imu.ay), imu.calcAccel(imu.az));
-        //printf("Mag: %f, %f, %f [gauss]\n", imu.calcMag(imu.mx), imu.calcMag(imu.my), imu.calcMag(imu.mz));
-
-	geometry_msgs::Vector3 gyro_val;
-	gyro_val.x=	imu.calcGyro(imu.gx);
-	gyro_val.y=	imu.calcGyro(imu.gy);
-	gyro_val.z=	imu.calcGyro(imu.gz);
-	pub_gyro.publish(gyro_val);
-
-	geometry_msgs::Vector3 accel_val; 
-       	accel_val.x=imu.calcAccel(imu.ax);
-      	accel_val.y=imu.calcAccel(imu.ay);
-	accel_val.z=  imu.calcAccel(imu.az);
-        pub_accel.publish(accel_val); 
+	geometry_msgs::Accel a;
+	a.angular.x=	imu.calcGyro(imu.gx);
+	a.angular.y=	imu.calcGyro(imu.gy);
+	a.angular.z=	imu.calcGyro(imu.gz);
+       	a.linear.x=imu.calcAccel(imu.ax);
+      	a.linear.y=imu.calcAccel(imu.ay);
+	a.linear.z=  imu.calcAccel(imu.az);
+        pub_accel.publish(a); 
 
 	geometry_msgs::Vector3 mag_val;
         mag_val.x=        imu.calcMag(imu.mx);
@@ -71,12 +62,8 @@ int main(int argc, char **argv){
         mag_val.z=      imu.calcMag(imu.mz);
         pub_mag.publish(mag_val); 
 	
-        //sleep(1.0);
-
-
-
     ros::spinOnce();
-    loop_rate.sleep();
+    rate.sleep();
   }
 
 

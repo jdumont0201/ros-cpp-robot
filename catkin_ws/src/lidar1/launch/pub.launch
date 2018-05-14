@@ -1,0 +1,5 @@
+<launch>
+<node pkg="lidar0" name="lidar0_node" type="lidar.py" output="screen">
+</node>
+
+</launch>

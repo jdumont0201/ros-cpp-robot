@@ -19,6 +19,8 @@ opencv2/imgproc/imgproc.hpp
 -
 opencv2/highgui/highgui.hpp
 -
+opencv2/objdetect.hpp
+/home/jbmdumont/catkin_ws/src/cv_bridge0/src/opencv2/objdetect.hpp
 
 /opt/ros/lunar/include/cv_bridge/cv_bridge.h
 sensor_msgs/Image.h

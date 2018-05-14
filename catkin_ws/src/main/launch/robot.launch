@@ -10,6 +10,10 @@
 <!-- GPS -->
 <node pkg="gps0" name="gps0" type="gps0_node" output="screen"></node>
 
+<!-- LIDAR -->
+<node pkg="lidar0" name="lidar0_node" type="lidar.py" output="screen"></node>
+
+<!-- USB_CAM -->
 <node pkg="usb_cam" name="usb_cam" type="usb_cam_node" output="screen" >
 <param name="video_device" value="/dev/video0"/>
 <param name="image_width" value="640"/>
@@ -18,5 +22,9 @@
 <param name="camera_frame_id" value="usb_cam"/>
 <param name="io_method" value="mmap"/>
 </node>
+
+<!-- CV BRIDGE -->
+<node pkg="cv_bridge0" name="cv_bridge" type="cv_bridge0_node" output="screen"></node>
+
 
 </launch>

@@ -9,7 +9,7 @@
 
 char * node_name="gps_pub_node";
 char * topic_name="gps";
-
+int output_rate=100;
 
 int main(int argc, char **argv){
   ROS_INFO("[%s] init",node_name);
@@ -20,7 +20,7 @@ int main(int argc, char **argv){
   ros::Publisher pub = n.advertise<sensor_msgs::NavSatFix>("gps", 1000);
 //  ros::Publisher pub = n.advertise<geometry_msgs::Vector3>("gps", 1000);
 
-  ros::Rate loop_rate(5);
+  ros::Rate loop_rate(output_rate);
 
     //INIT CALIB
    gpsmm gps_rec("localhost", DEFAULT_GPSD_PORT);
@@ -92,7 +92,7 @@ struct gps_data_t *gpsd_data;
 	sensor_msgs::NavSatFix f;
 	        f.latitude=     latitude;
         	f.longitude=     longitude;
-f.altitude=altitude;
+		f.altitude=altitude;
         f.header=header;
 	f.status=status;
 //        ROS_INFO("[%s] %f %f",latitude,longitude);

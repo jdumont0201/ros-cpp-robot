@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/devel
+
+Name: lidar1
+Description: Description of lidar1
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jbmdumont/catkin_ws/devel/lib 
+Requires: 

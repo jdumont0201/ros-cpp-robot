@@ -458,6 +458,18 @@ ledx_serial_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/ledx_serial
 lib:FILEPATH=/opt/ros/lunar/lib/libcamera_calibration_parsers.so
 
 //Value Computed by CMake
+lidar0_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/lidar0
+
+//Value Computed by CMake
+lidar0_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/lidar0
+
+//Value Computed by CMake
+lidar1_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/lidar1
+
+//Value Computed by CMake
+lidar1_SOURCE_DIR:STATIC=/home/jbmdumont/catkin_ws/src/lidar1
+
+//Value Computed by CMake
 main_BINARY_DIR:STATIC=/home/jbmdumont/catkin_ws/build/main
 
 //Value Computed by CMake
@@ -739,7 +751,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
