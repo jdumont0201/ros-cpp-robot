@@ -1,0 +1,4 @@
+main
+/home/jbmdumont/catkin_ws/devel_cb/.private/main/lib/pkgconfig/main.pc /home/jbmdumont/catkin_ws/devel_cb/lib/pkgconfig/main.pc
+/home/jbmdumont/catkin_ws/devel_cb/.private/main/share/main/cmake/mainConfig.cmake /home/jbmdumont/catkin_ws/devel_cb/share/main/cmake/mainConfig.cmake
+/home/jbmdumont/catkin_ws/devel_cb/.private/main/share/main/cmake/mainConfig-version.cmake /home/jbmdumont/catkin_ws/devel_cb/share/main/cmake/mainConfig-version.cmake

@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# generated from catkin.builder module
+
+. "/home/jbmdumont/catkin_ws/devel_isolated/usb_cam/setup.bash"

@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/install_isolated
+
+Name: gps0
+Description: Description of gps0
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jbmdumont/catkin_ws/install_isolated/lib 
+Requires: 

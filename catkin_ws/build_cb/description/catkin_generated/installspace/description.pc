@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/install_cb
+
+Name: description
+Description: Description of description
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jbmdumont/catkin_ws/install_cb/lib 
+Requires: 

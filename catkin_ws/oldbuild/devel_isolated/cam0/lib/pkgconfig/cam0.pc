@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/devel_isolated/cam0
+
+Name: cam0
+Description: Description of cam0
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jbmdumont/catkin_ws/devel_isolated/cam0/lib 
+Requires: 

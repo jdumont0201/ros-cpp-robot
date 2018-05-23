@@ -1,0 +1,6 @@
+devel_space: /home/jbmdumont/catkin_ws/devel_cb
+install: false
+install_space: /home/jbmdumont/catkin_ws/install_cb
+profile: default
+source_space: /home/jbmdumont/catkin_ws/src
+workspace: /home/jbmdumont/catkin_ws

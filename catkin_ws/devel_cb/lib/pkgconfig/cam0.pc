@@ -1,0 +1,1 @@
+/home/jbmdumont/catkin_ws/devel_cb/.private/cam0/lib/pkgconfig/cam0.pc

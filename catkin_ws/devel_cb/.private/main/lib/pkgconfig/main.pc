@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/devel_cb/.private/main
+
+Name: main
+Description: Description of main
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jbmdumont/catkin_ws/devel_cb/.private/main/lib 
+Requires: 

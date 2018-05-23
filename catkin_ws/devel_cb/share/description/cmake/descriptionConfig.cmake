@@ -1,0 +1,1 @@
+/home/jbmdumont/catkin_ws/devel_cb/.private/description/share/description/cmake/descriptionConfig.cmake

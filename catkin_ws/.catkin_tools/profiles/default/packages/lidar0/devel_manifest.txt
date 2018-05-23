@@ -1,0 +1,4 @@
+lidar0
+/home/jbmdumont/catkin_ws/devel_cb/.private/lidar0/lib/pkgconfig/lidar0.pc /home/jbmdumont/catkin_ws/devel_cb/lib/pkgconfig/lidar0.pc
+/home/jbmdumont/catkin_ws/devel_cb/.private/lidar0/share/lidar0/cmake/lidar0Config.cmake /home/jbmdumont/catkin_ws/devel_cb/share/lidar0/cmake/lidar0Config.cmake
+/home/jbmdumont/catkin_ws/devel_cb/.private/lidar0/share/lidar0/cmake/lidar0Config-version.cmake /home/jbmdumont/catkin_ws/devel_cb/share/lidar0/cmake/lidar0Config-version.cmake

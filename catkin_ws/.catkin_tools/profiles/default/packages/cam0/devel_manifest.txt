@@ -1,0 +1,5 @@
+cam0
+/home/jbmdumont/catkin_ws/devel_cb/.private/cam0/lib/pkgconfig/cam0.pc /home/jbmdumont/catkin_ws/devel_cb/lib/pkgconfig/cam0.pc
+/home/jbmdumont/catkin_ws/devel_cb/.private/cam0/lib/cam0/cam0_node /home/jbmdumont/catkin_ws/devel_cb/lib/cam0/cam0_node
+/home/jbmdumont/catkin_ws/devel_cb/.private/cam0/share/cam0/cmake/cam0Config.cmake /home/jbmdumont/catkin_ws/devel_cb/share/cam0/cmake/cam0Config.cmake
+/home/jbmdumont/catkin_ws/devel_cb/.private/cam0/share/cam0/cmake/cam0Config-version.cmake /home/jbmdumont/catkin_ws/devel_cb/share/cam0/cmake/cam0Config-version.cmake

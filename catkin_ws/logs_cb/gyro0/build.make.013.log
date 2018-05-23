@@ -1,0 +1,22 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target gyro0_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gyro0_node.dir/src/publisher.cpp.o[0m
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:17:18:[m[K [01;35m[Kwarning: [m[Kdeprecated conversion from string constant to ‘[01m[Kchar*[m[K’ [-Wwrite-strings]
+ char * node_name="gyro0_node";
+[01;32m[K                  ^[m[K
+[100%] [32m[1mLinking CXX executable /home/jbmdumont/catkin_ws/devel_cb/.private/gyro0/lib/gyro0/gyro0_node[0m
+[100%] Built target gyro0_node

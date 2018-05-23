@@ -1,0 +1,23 @@
+ledx
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/lib/ledx/ledx_server_node /home/jbmdumont/catkin_ws/devel_cb/lib/ledx/ledx_server_node
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/lib/ledx/ledx_client_node /home/jbmdumont/catkin_ws/devel_cb/lib/ledx/ledx_client_node
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/lib/pkgconfig/ledx.pc /home/jbmdumont/catkin_ws/devel_cb/lib/pkgconfig/ledx.pc
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/lib/python2.7/dist-packages/ledx/__init__.py /home/jbmdumont/catkin_ws/devel_cb/lib/python2.7/dist-packages/ledx/__init__.py
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/lib/python2.7/dist-packages/ledx/srv/_mode.py /home/jbmdumont/catkin_ws/devel_cb/lib/python2.7/dist-packages/ledx/srv/_mode.py
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/lib/python2.7/dist-packages/ledx/srv/__init__.py /home/jbmdumont/catkin_ws/devel_cb/lib/python2.7/dist-packages/ledx/srv/__init__.py
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/ledx/cmake/ledx-msg-paths.cmake /home/jbmdumont/catkin_ws/devel_cb/share/ledx/cmake/ledx-msg-paths.cmake
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/ledx/cmake/ledxConfig.cmake /home/jbmdumont/catkin_ws/devel_cb/share/ledx/cmake/ledxConfig.cmake
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/ledx/cmake/ledxConfig-version.cmake /home/jbmdumont/catkin_ws/devel_cb/share/ledx/cmake/ledxConfig-version.cmake
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/ledx/cmake/ledx-msg-extras.cmake /home/jbmdumont/catkin_ws/devel_cb/share/ledx/cmake/ledx-msg-extras.cmake
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/gennodejs/ros/ledx/_index.js /home/jbmdumont/catkin_ws/devel_cb/share/gennodejs/ros/ledx/_index.js
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/gennodejs/ros/ledx/srv/mode.js /home/jbmdumont/catkin_ws/devel_cb/share/gennodejs/ros/ledx/srv/mode.js
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/gennodejs/ros/ledx/srv/_index.js /home/jbmdumont/catkin_ws/devel_cb/share/gennodejs/ros/ledx/srv/_index.js
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/roseus/ros/ledx/manifest.l /home/jbmdumont/catkin_ws/devel_cb/share/roseus/ros/ledx/manifest.l
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/roseus/ros/ledx/srv/mode.l /home/jbmdumont/catkin_ws/devel_cb/share/roseus/ros/ledx/srv/mode.l
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/common-lisp/ros/ledx/srv/ledx-srv.asd /home/jbmdumont/catkin_ws/devel_cb/share/common-lisp/ros/ledx/srv/ledx-srv.asd
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/common-lisp/ros/ledx/srv/_package.lisp /home/jbmdumont/catkin_ws/devel_cb/share/common-lisp/ros/ledx/srv/_package.lisp
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/common-lisp/ros/ledx/srv/_package_mode.lisp /home/jbmdumont/catkin_ws/devel_cb/share/common-lisp/ros/ledx/srv/_package_mode.lisp
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/share/common-lisp/ros/ledx/srv/mode.lisp /home/jbmdumont/catkin_ws/devel_cb/share/common-lisp/ros/ledx/srv/mode.lisp
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/include/ledx/modeRequest.h /home/jbmdumont/catkin_ws/devel_cb/include/ledx/modeRequest.h
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/include/ledx/mode.h /home/jbmdumont/catkin_ws/devel_cb/include/ledx/mode.h
+/home/jbmdumont/catkin_ws/devel_cb/.private/ledx/include/ledx/modeResponse.h /home/jbmdumont/catkin_ws/devel_cb/include/ledx/modeResponse.h

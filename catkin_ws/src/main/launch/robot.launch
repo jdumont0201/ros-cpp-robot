@@ -10,8 +10,17 @@
 <!-- GPS -->
 <node pkg="gps0" name="gps0" type="gps0_node" output="screen"></node>
 
-<!-- LIDAR -->
+<!-- LIDARS -->
 <node pkg="lidar0" name="lidar0_node" type="lidar.py" output="screen"></node>
+
+  <node name="rplidarNode"          pkg="rplidar_ros"  type="rplidarNode" outpu$
+  <param name="serial_port"         type="string" value="/dev/ttyUSB1"/>
+  <param name="serial_baudrate"     type="int"    value="115200"/>
+  <param name="frame_id"            type="string" value="laser"/>
+  <param name="inverted"            type="bool"   value="false"/>
+  <param name="angle_compensate"    type="bool"   value="true"/>
+  </node>
+
 
 <!-- USB_CAM -->
 <node pkg="usb_cam" name="usb_cam" type="usb_cam_node" output="screen" >

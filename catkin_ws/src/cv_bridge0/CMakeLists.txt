@@ -13,6 +13,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   sensor_msgs
   std_msgs
+  message_generation
 )
 
 find_package(OpenCV)
@@ -64,11 +65,11 @@ ENDIF()
 ##   * add every package in MSG_DEP_SET to generate_messages(DEPENDENCIES ...)
 
 ## Generate messages in the 'msg' folder
-# add_message_files(
-#   FILES
-#   Message1.msg
-#   Message2.msg
-# )
+ add_message_files(
+   FILES
+   tennisball.msg
+   tennisballs.msg
+ )
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -85,10 +86,11 @@ ENDIF()
 # )
 
 ## Generate added messages and services with any dependencies listed here
-# generate_messages(
-#   DEPENDENCIES
-#   sensor_msgs#   std_msgs
-# )
+ generate_messages(
+   DEPENDENCIES
+   sensor_msgs
+   std_msgs
+ )
 
 ################################################
 ## Declare ROS dynamic reconfigure parameters ##
@@ -122,7 +124,7 @@ ENDIF()
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES cv_bridge0
-#  CATKIN_DEPENDS cv_bridge image_transport roscpp sensor_msgs std_msgs
+  CATKIN_DEPENDS cv_bridge image_transport roscpp sensor_msgs std_msgs message_generation
 #  DEPENDS system_lib
 )
 

@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/install_cb
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/jbmdumont/catkin_ws/install_cb/include
+Libs: -L/home/jbmdumont/catkin_ws/install_cb/lib -lusb_cam
+Requires: 

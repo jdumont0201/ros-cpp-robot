@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/install
+
+Name: angles
+Description: Description of angles
+Version: 1.9.11
+Cflags: -I/home/jbmdumont/catkin_ws/install/include
+Libs: -L/home/jbmdumont/catkin_ws/install/lib 
+Requires: 

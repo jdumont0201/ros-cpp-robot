@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+
+<robot name="robot0">
+  <!-- structure -->
+  <link name="base_link">
+    <visual>
+        <origin xyz="0 0 0.005" rpy="0 0 0"/>
+      <geometry>
+         <box size="0.20 0.20 0.01" />
+      </geometry>
+  <material name="white">
+            <color rgba="1 1 1 1"/>
+          </material>
+    </visual>
+  </link>
+<link name="top_link">
+    <visual>
+        <origin xyz="0 0 0.005" rpy="0 0 0"/>
+      <geometry>
+         <box size="0.20 0.20 0.01" />
+      </geometry>
+  <material name="white2">
+            <color rgba="0.5 0.5 0.5 1"/>
+          </material>
+    </visual>
+  </link>
+<!-- sensors -->
+ <link name="lidar_link">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+         <cylinder  length="0.041" radius="0.03625"/>
+      </geometry>
+        <material name="purple">
+            <color rgba="0.5 0 0.5 1"/>
+          </material>
+    </visual>
+  </link>
+ <link name="gyro_link">
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+         <box  size="0.05 0.07 0.02"/>
+      </geometry>
+        <material name="blue">
+            <color rgba="0 0 1 1"/>
+          </material>
+    </visual>
+  </link>
+<!-- joints -->
+  <joint name="base_to_lidar" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar_link"/>
+    <origin xyz="0 0 0.13" rpy="0 0 0"/>
+  </joint>
+ <joint name="base_to_top" type="fixed">
+    <parent link="base_link"/>
+    <child link="top_link"/>
+    <origin xyz="0 0 0.10" rpy="0 0 0"/>
+  </joint>
+ <joint name="base_to_gyro" type="fixed">
+    <parent link="base_link"/>
+    <child link="gyro_link"/>
+    <origin xyz="0 0 0.02" rpy="0 0 0"/>
+  </joint>
+</robot>

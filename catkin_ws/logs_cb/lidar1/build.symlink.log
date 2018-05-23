@@ -1,0 +1,3 @@
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/lib/pkgconfig/lidar1.pc
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/share/lidar1/cmake/lidar1Config-version.cmake
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/share/lidar1/cmake/lidar1Config.cmake

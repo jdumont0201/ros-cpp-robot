@@ -1,0 +1,4 @@
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/lib/pkgconfig/cam0.pc
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/lib/cam0/cam0_node
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/share/cam0/cmake/cam0Config.cmake
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/share/cam0/cmake/cam0Config-version.cmake

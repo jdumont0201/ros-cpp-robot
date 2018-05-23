@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/install_isolated
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/jbmdumont/catkin_ws/install_isolated/include
+Libs: -L/home/jbmdumont/catkin_ws/install_isolated/lib -lusb_cam
+Requires: 

@@ -1,0 +1,2 @@
+cam0:cv_bridge0:gps0:gyro0:ledx:lidar0:lidar1:main:rplidar_ros:servo0:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/jbmdumont/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/jbmdumont/catkin_ws/install -G Unix Makefiles

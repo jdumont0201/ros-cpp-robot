@@ -1,0 +1,33 @@
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target gyro0_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gyro0_node.dir/src/publisher.cpp.o[0m
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:16:18:[m[K [01;35m[Kwarning: [m[Kdeprecated conversion from string constant to ‘[01m[Kchar*[m[K’ [-Wwrite-strings]
+ char * node_name="gyro0_node";
+[01;32m[K                  ^[m[K
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:59:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kmp[m[K’ was not declared in this scope
+ mp
+[01;32m[K ^[m[K
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmag_val[m[K’ was not declared in this scope
+         mag_val.x=        imu.calcMag(imu.mx);
+[01;32m[K         ^[m[K
+CMakeFiles/gyro0_node.dir/build.make:62: recipe for target 'CMakeFiles/gyro0_node.dir/src/publisher.cpp.o' failed
+make[2]: *** [CMakeFiles/gyro0_node.dir/src/publisher.cpp.o] Error 1
+CMakeFiles/Makefile2:81: recipe for target 'CMakeFiles/gyro0_node.dir/all' failed
+make[1]: *** [CMakeFiles/gyro0_node.dir/all] Error 2
+make: *** [all] Error 2
+Makefile:138: recipe for target 'all' failed

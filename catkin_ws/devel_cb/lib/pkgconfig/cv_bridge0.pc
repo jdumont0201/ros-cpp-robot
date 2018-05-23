@@ -1,0 +1,1 @@
+/home/jbmdumont/catkin_ws/devel_cb/.private/cv_bridge0/lib/pkgconfig/cv_bridge0.pc

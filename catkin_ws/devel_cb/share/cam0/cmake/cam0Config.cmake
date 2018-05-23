@@ -1,0 +1,1 @@
+/home/jbmdumont/catkin_ws/devel_cb/.private/cam0/share/cam0/cmake/cam0Config.cmake

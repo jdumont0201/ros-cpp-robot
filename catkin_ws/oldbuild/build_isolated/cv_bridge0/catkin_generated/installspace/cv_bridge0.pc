@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/install_isolated
+
+Name: cv_bridge0
+Description: Description of cv_bridge0
+Version: 0.0.0
+Cflags: -I/home/jbmdumont/catkin_ws/install_isolated/include
+Libs: -L/home/jbmdumont/catkin_ws/install_isolated/lib 
+Requires: cv_bridge image_transport roscpp sensor_msgs std_msgs message_generation

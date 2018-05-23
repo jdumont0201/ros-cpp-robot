@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/devel_cb/.private/gyro0
+
+Name: gyro0
+Description: Description of gyro0
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jbmdumont/catkin_ws/devel_cb/.private/gyro0/lib 
+Requires: 

@@ -1,0 +1,25 @@
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:17:18:[m[K [01;35m[Kwarning: [m[Kdeprecated conversion from string constant to ‘[01m[Kchar*[m[K’ [-Wwrite-strings]
+ char * node_name="gyro0_node";
+[01;32m[K                  ^[m[K
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:58:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::TwistStamped {aka struct geometry_msgs::TwistStamped_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kangular[m[K’
+  a.angular.x= imu.calcGyro(imu.gx);
+[01;32m[K    ^[m[K
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:59:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::TwistStamped {aka struct geometry_msgs::TwistStamped_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kangular[m[K’
+  a.angular.y= imu.calcGyro(imu.gy);
+[01;32m[K    ^[m[K
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:60:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::TwistStamped {aka struct geometry_msgs::TwistStamped_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kangular[m[K’
+  a.angular.z= imu.calcGyro(imu.gz);
+[01;32m[K    ^[m[K
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:61:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::TwistStamped {aka struct geometry_msgs::TwistStamped_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Klinear[m[K’
+         a.linear.x=imu.calcAccel(imu.ax);
+[01;32m[K           ^[m[K
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:62:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::TwistStamped {aka struct geometry_msgs::TwistStamped_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Klinear[m[K’
+        a.linear.y=imu.calcAccel(imu.ay);
+[01;32m[K          ^[m[K
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:63:4:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::TwistStamped {aka struct geometry_msgs::TwistStamped_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Klinear[m[K’
+  a.linear.z=  imu.calcAccel(imu.az);
+[01;32m[K    ^[m[K
+make[2]: *** [CMakeFiles/gyro0_node.dir/src/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gyro0_node.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,1 @@
+/home/jbmdumont/catkin_ws/devel_cb/.private/servo0/share/roseus/ros/servo0/manifest.l

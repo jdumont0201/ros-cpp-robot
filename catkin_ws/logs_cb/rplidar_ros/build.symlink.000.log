@@ -1,0 +1,5 @@
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/lib/rplidar_ros/rplidarNodeClient
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/lib/rplidar_ros/rplidarNode
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/lib/pkgconfig/rplidar_ros.pc
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+Symlinking /home/jbmdumont/catkin_ws/devel_cb/share/rplidar_ros/cmake/rplidar_rosConfig.cmake

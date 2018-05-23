@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/devel_cb/.private/lidar0
+
+Name: lidar0
+Description: Description of lidar0
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jbmdumont/catkin_ws/devel_cb/.private/lidar0/lib 
+Requires: 

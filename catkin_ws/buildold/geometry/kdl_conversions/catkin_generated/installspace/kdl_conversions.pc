@@ -1,0 +1,8 @@
+prefix=/home/jbmdumont/catkin_ws/install
+
+Name: kdl_conversions
+Description: Description of kdl_conversions
+Version: 1.12.0
+Cflags: -I/home/jbmdumont/catkin_ws/install/include -I/home/jbmdumont/catkin_ws/lib/orocos_kdl/build/../../../include -I/usr/local/include/eigen3
+Libs: -L/home/jbmdumont/catkin_ws/install/lib -lkdl_conversions /home/jbmdumont/catkin_ws/lib/orocos_kdl/build/src/liborocos-kdl.so.1.4.0
+Requires: geometry_msgs

@@ -1,0 +1,13 @@
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:16:18:[m[K [01;35m[Kwarning: [m[Kdeprecated conversion from string constant to ‘[01m[Kchar*[m[K’ [-Wwrite-strings]
+ char * node_name="gyro0_node";
+[01;32m[K                  ^[m[K
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:59:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kmp[m[K’ was not declared in this scope
+ mp
+[01;32m[K ^[m[K
+[01m[K/home/jbmdumont/catkin_ws/src/gyro0/src/publisher.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmag_val[m[K’ was not declared in this scope
+         mag_val.x=        imu.calcMag(imu.mx);
+[01;32m[K         ^[m[K
+make[2]: *** [CMakeFiles/gyro0_node.dir/src/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/gyro0_node.dir/all] Error 2
+make: *** [all] Error 2
